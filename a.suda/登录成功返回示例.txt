@@ -1,0 +1,27 @@
+.----------------------------------.
+| info              | 认证成功     |
+| status            | 1            |
+| logout_username   | 15895567150  |
+| logout_domain     | 中国移动     |
+| logout_ip         | 10.70.114.3  |
+| logout_location   | 苏州大学     |
+| logout_timer      | 0            |
+| logout_window     | 0            |
+| logout_show_info  | 1            |
+| logout_account    | 0            |
+| logout_timeamount | 1166813      |
+| logout_flowamount | 121502760606 |
+'----------------------------------'
+.----------------------------------.
+| info              | 用户已登录   |
+| status            | 1            |
+| logout_username   | 15895567150  |
+| logout_domain     | 中国移动     |
+| logout_ip         | 10.70.114.3  |
+| logout_location   | 苏州大学     |
+| logout_timer      | 0            |
+| logout_show_info  | 1            |
+| logout_account    | 0            |
+| logout_timeamount | 1166813      |
+| logout_flowamount | 121502760606 |
+'----------------------------------'
