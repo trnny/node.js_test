@@ -1,0 +1,64 @@
+#mainBlock {
+	border-radius:5px;
+	background-color:rgba(0,0,0,0);
+}
+#mainBlock:hover {
+	background-color:rgba(0,0,0,0.5);
+}
+#M_title {
+	background-image: -webkit-gradient(linear, left center, right center, from(rgba(176, 31, 184, 1)), to(rgba(255, 89, 76, 1)));
+	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#M_progress {
+	background-color:rgba(255,255,255,0.2);
+}
+#M_progress_left {
+}
+#btn_q {
+	opacity:0.6;
+}
+#btn_q:hover {
+	opacity:1;
+}
+#btn_q span {
+	background-color:rgb(255,255,255);
+}
+#btn_q span:nth-child(1) {
+	
+}
+#btn_q span:nth-child(2) {
+	
+}
+#playBtns {
+}
+#playBtns p {
+	opacity:0.8;
+	transition: all .1s ease;
+}
+#playBtns p:hover {
+	opacity:1;
+}
+#playBtns p:active {
+	top:1px;
+}
+#btn_p span,#btn_n span {
+	border-radius:2px;
+	background-color:#fff;
+}
+#btn_n span:nth-child(2) {
+
+}
+#btn_p span:nth-child(2) {
+
+}
+#btn_n span:nth-child(1) {
+
+}
+#btn_p span:nth-child(1) {
+
+}
+#btn_c span {
+	border-color: transparent transparent transparent #fff;
+}
