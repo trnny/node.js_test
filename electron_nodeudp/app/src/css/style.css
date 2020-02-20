@@ -1,0 +1,258 @@
+#entry_div, #main_div, #register_div, html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#entry_div, #register_div {
+    background-color: #212121;
+    -webkit-user-select:none;
+    user-select: none;
+}
+
+#e_center_div, #r_center_div {
+    text-align: center;
+    color: whitesmoke;
+    width: 180px;
+    height: 240px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#e_center_div h3 span, #r_center_div h3 span {
+    display: inline;
+    font-size: 12px;
+    float: unset;
+}
+
+#e_center_div h3 span:hover, #r_center_div h3 span:hover {
+    color: rgb(121, 204, 176);
+    cursor: pointer;
+}
+
+#e_center_div .ipt, #r_center_div .ipt {
+    width: 170px;
+    height: 22px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+}
+
+#e_center_div input:nth-child(4) {
+    float: left;
+    width: 14px;
+    height: 14px;
+    line-height: 20px;
+}
+
+#e_center_div span {
+    font-size: 12px;
+    float: left;
+    display: block;
+    line-height: 20px;
+}
+
+#e_center_div .btn, #r_center_div .btn {
+    width: 68px;
+    height: 24px;
+    border-radius: 5px;
+    border-color: #db7676;
+    background-color: #d86859;
+    color: aliceblue;
+    clear: both;
+    display: block;
+    margin: 44px auto 0 auto;
+}
+
+#r_center_div .btn {
+    margin: auto;
+    border-color: #76bbdb;
+    background-color: #5cb2eb;
+}
+
+#m_div_flist {
+    width: 140px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fafafa;
+    -webkit-user-select:none;
+    user-select: none;
+    z-index: 0;
+}
+
+#m_div_flist .empty_flist {
+    color: #aeaeae;
+    width: 100%;
+    height: 22px;
+    left: 0;
+    top: 20px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+
+#m_div_flist .m_fblk {
+    width: 100%;
+    height: 68px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#m_div_flist .m_fblk img {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin: 10px;
+}
+
+#m_div_flist .m_fblk p {
+    position: absolute;
+    left: 68px;
+    top: 5px;
+    right: 26px;
+    display: inline;
+    margin: 10px auto;
+    text-overflow: clip;
+    white-space: nowrap;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#m_div_flist .m_fblk div {
+    width: 18px;
+    height: 68px;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    position: absolute;
+    background-color: transparent;
+}
+
+#m_div_flist .m_fblk div p {  /*对话列表 关闭按钮*/
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    top: 25px;
+    right: 0;
+    left: 0;
+    bottom: 25px;
+    position: relative;
+    display: none;
+    background-color: #6a6a6a;
+    border-radius: 9px;
+    margin: 0;
+    color: #ebebec;
+    cursor: pointer;
+}
+
+#m_div_flist .m_fblk div p:hover {
+    background-color: #ee5151;
+}
+
+#m_div_flist .m_fblk div .m_fblk_msc {  /*对话列表 关闭按钮*/
+    display: none;
+    background-color: #5cb2eb;
+    padding: 2px 4px 2px 4px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    width: auto;
+}
+
+#m_adjust_width {
+    width: 1px;
+    height: auto;
+    background-color: #ebebec;
+    border-width: 0 3px 0 0;
+    border-style: solid;
+    border-color: #fff;
+    position: fixed;
+    left: 140px;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+#m_adjust_width:hover {
+    cursor: w-resize;
+}
+
+#m_div_msgbox {
+    width: auto;
+    height: auto;
+    left: 140px;
+    right: 0;
+    top: 0;
+    bottom: 200px;
+    position: fixed;
+    overflow: auto;
+    z-index: 0;
+}
+
+#m_adjust_height {
+    width: auto;
+    height: 1px;
+    background-color: #ebebec;
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    border-color: #fff;
+    position: fixed;
+    left: 140px;
+    right: 0;
+    bottom: 200px;
+    z-index: 10;
+}
+
+#m_adjust_height:hover {
+    cursor: n-resize;
+}
+
+#m_div_msgedit {
+    width: auto;
+    height: 200px;
+    left: 140px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow: auto;
+    z-index: 0;
+    padding: 1px 1px 2px 3px;
+}
+
+#m_div_msgsend {
+    width: 64px;
+    height: 24px;
+    background-color: #0188fb;
+    position: fixed;
+    right: 14px;
+    bottom: 14px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-user-select:none;
+    user-select: none;
+}
+
+#m_div_msgsend:hover {
+    background-color: #289cff;
+}
