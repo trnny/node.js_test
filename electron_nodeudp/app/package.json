@@ -1,0 +1,19 @@
+{
+  "name": "nuc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager ./ nuc --win --out=../../app --arch=x64 --ignore=.bat --ignore=.ico --ignore=cache --ignore=config --ignore=src/backup --ignore=src/test --electron-version=4.1.1 --overwrite --icon=ico_72.ico"
+  },
+  "author": "trnny",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^13.1.1"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
