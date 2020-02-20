@@ -1,2 +1,4 @@
 # node.js_test
 好久以前试了试node.js和electron的代码
+
+electron_nodeudp运行还得启动一个http服务器，用来上传用户的文件和控制它的版本。在http_nuc里面
